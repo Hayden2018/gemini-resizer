@@ -1,0 +1,42 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Google-style soft background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef3fd"/>
+    </linearGradient>
+    <!-- Gemini brand gradient (blue -> purple) -->
+    <linearGradient id="gemini" x1="40" y1="30" x2="92" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4285f4"/>
+      <stop offset="0.5" stop-color="#6c6cf0"/>
+      <stop offset="1" stop-color="#9b72cb"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0" y1="64" x2="128" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4285f4"/>
+      <stop offset="1" stop-color="#9b72cb"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded app tile -->
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bg)" stroke="#dfe6f3" stroke-width="2"/>
+
+  <!-- Edge guides representing the chat area boundaries -->
+  <rect x="18" y="34" width="5" height="60" rx="2.5" fill="#c6dafc"/>
+  <rect x="105" y="34" width="5" height="60" rx="2.5" fill="#c6dafc"/>
+
+  <!-- Resize arrows hinting at width adjustment -->
+  <g stroke="url(#arrow)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- left arrow head -->
+    <path d="M40 54 L30 64 L40 74"/>
+    <!-- right arrow head -->
+    <path d="M88 54 L98 64 L88 74"/>
+  </g>
+
+  <!-- Gemini spark, centered as the focal element -->
+  <path d="M64 38
+           C66.5 50.5 77.5 61.5 90 64
+           C77.5 66.5 66.5 77.5 64 90
+           C61.5 77.5 50.5 66.5 38 64
+           C50.5 61.5 61.5 50.5 64 38 Z"
+        fill="url(#gemini)"/>
+</svg>
