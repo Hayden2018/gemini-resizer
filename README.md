@@ -26,4 +26,4 @@ Open Gemini, click the extension icon, and adjust the width slider. Use the togg
 
 ## Contribution and Support
 
-Feel free to raise an issue or submit a pull request. For support, you can email yikhei123@gmal.com
+Feel free to raise an issue or submit a pull request. For support, you can email yikhei123@gmail.com
